@@ -717,12 +717,13 @@ h6 {
 .section-subtitle {
     font-size: 18px;
     padding-top: 0;
+    color: black;
 }
 
 .section-heading h3 {
     font-size: 14px;
     font-weight: bold;
-    color: #ffffff;
+    color: #ccc;
     letter-spacing: 2px;
     padding-bottom: 0;
 }
