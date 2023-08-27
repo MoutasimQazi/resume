@@ -171,7 +171,23 @@ section {
 #clients .col-2-3 [class*='col-'] {
     padding: 0;
 }
+.download-cv-button {
+    text-align: center;
+    margin-top: 20px;
+}
 
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #D2B356;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #357ebd;
+}
 /* Clearfix */
 
 .clearfix:after {
@@ -2279,7 +2295,6 @@ blockquote {
     }
 
 }
-
 
 
 
