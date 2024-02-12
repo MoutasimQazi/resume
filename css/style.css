@@ -2276,3 +2276,23 @@ blockquote {
 strong {
     color: #08D9D6;
 }
+/* Width */
+::-webkit-scrollbar {
+    width: 7px; /* Change this value to adjust the width of the scrollbar */
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #E6FFFD; /* Change this value to adjust the color of the track */
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #08d9d64d; /* Change this value to adjust the color of the scrollbar handle */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #08D9D6; /* Change this value to adjust the color of the scrollbar handle on hover */
+  }
+  
