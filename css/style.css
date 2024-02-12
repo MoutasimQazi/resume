@@ -1,34 +1,4 @@
-/* Namari Landing Page v.1.1.0 Style Index - a free landing page by shapingrain.com
 
-1. Default and Reset styles
-- 1.1 Input Elements
-2. Global elements
-- 2.1 Header
-- 2.2 Logo
-- 2.3 Buttons
-- 2.4 Navigation
-- 2.5 Social Elements
-- 2.6 Images
-3. Fonts and Headings
-4. Banner
-- 4.1 SignUp Form
-5. Content Elements
-- 5.1 Icons
-- 5.2 Parallax Elements
-- 5.3 Divider
-6. Landing Page Sections
-- 6.1 Features
-- 6.2 Testimonials
-- 6.3 Gallery
-- 6.4 Video
-- 6.5 Clients
-- 6.6 Pricing Table
-7. Footer
-
-
-/*------------------------------------------------------------------------------------------*/
-/* 1. Defaults & Reset of specific styles across browsers */
-/*------------------------------------------------------------------------------------------*/
 
 *, *:before, *:after {
     -webkit-box-sizing: border-box;
@@ -179,8 +149,8 @@ section {
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #D2B356;
-    color: #fff;
+    background-color: #08D9D6;
+    color: #E6FFFD;
     text-decoration: none;
     border-radius: 5px;
 }
@@ -409,7 +379,7 @@ section {
     text-transform: none;
     display: block;
     -webkit-font-smoothing: antialiased;
-    color:#fff;
+    color:#E6FFFD;
 }
 
 .play-video .play-icon {
@@ -438,7 +408,7 @@ section {
     -moz-transform: scale(0.93);
     -ms-transform: scale(0.93);
     transform: scale(0.93);
-    color: #fff;
+    color: #E6FFFD;
 }
 
 
@@ -475,7 +445,7 @@ section {
 }
 
 #header.nav-solid {
-    background: #fff;
+    background: #E6FFFD;
     box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.2);
     position: fixed !important;
     left:0;
@@ -483,7 +453,7 @@ section {
 
 #header.nav-solid nav a {
     border-bottom: 3px solid;
-    border-color: #fff;
+    border-color: #E6FFFD;
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
@@ -582,7 +552,7 @@ nav#nav-mobile ul {
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
-    background-color: #fff;
+    background-color: #E6FFFD;
     box-shadow: 0 5px 3px rgba(0, 0, 0, 0.2);
 }
 
@@ -865,7 +835,7 @@ h6 {
 }
 
 .divider i {
-    background: #fff;
+    background: #E6FFFD;
     position: relative;
     top: -11px;
     padding: 0 5px 0 5px;
@@ -1083,7 +1053,7 @@ blockquote {
         /* styling */
         cursor: pointer;
         text-align: center;
-        color: #fff;
+        color: #E6FFFD;
         font-family: "fontawesome";
         font-size: 22px;
         opacity: 0.5;
@@ -1174,7 +1144,7 @@ blockquote {
 
         /* center vertically */
         margin-top: -40px;
-        color: #fff;
+        color: #E6FFFD;
         font-style: normal;
         font-weight: normal;
         -webkit-transition: all 0.3s ease-out;
@@ -1243,7 +1213,7 @@ blockquote {
 /* --------- 6.5 Video ---------- */
 
 #video-box {
-    color:#fff;
+    color:#E6FFFD;
     position:relative;
     overflow:hidden;
     text-align:center;
@@ -1324,7 +1294,7 @@ blockquote {
 
 #slvj-close-icon:before {
     font-family: "fontawesome";
-    color: #fff;
+    color: #E6FFFD;
     content: '\f00d';
     font-size: 22px;
     opacity: 0.5;
@@ -1354,7 +1324,7 @@ blockquote {
     position: relative;
     text-transform: uppercase;
     font-weight: bold;
-    color: #fff;
+    color: #E6FFFD;
 }
 
 #clients img {
@@ -1395,12 +1365,12 @@ blockquote {
 /* --------- 6.7 Pricing Table ---------- */
 
 .pricing-block-content {
-    background: #fff;
+    background: #E6FFFD;
     padding: 25px 0 25px 0;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.07);
     transition: all 0.2s ease-in-out 0s;
     position: relative;
-    border: 10px solid #fff;
+    border: 10px solid #E6FFFD;
 }
 
 
@@ -1497,7 +1467,7 @@ blockquote {
     padding: 0 5px 20px 5px;
     text-align: center;
     text-decoration: none;
-    color: #fff;
+    color: #E6FFFD;
     -webkit-transition: margin-bottom 150ms linear;
     -moz-transition: margin-bottom 150ms linear;
     -o-transition: margin-bottom 150ms linear;
@@ -1515,7 +1485,7 @@ blockquote {
     font-style: normal;
     font-weight: normal;
     text-align: center;
-    color: #fff;
+    color: #E6FFFD;
     width: 45px;
     height: 45px;
     display: inline-block;
@@ -1532,7 +1502,7 @@ blockquote {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #fff; /* change if the mask should have another color then white */
+    background-color: #E6FFFD; /* change if the mask should have another color then white */
     z-index: 99999; /* makes sure it stays on top */
 }
 
@@ -1563,7 +1533,7 @@ blockquote {
 .la-ball-triangle-path {
     display: block;
     font-size: 0;
-    color: #fff;
+    color: #E6FFFD;
 }
 
 .la-ball-triangle-path.la-dark {
@@ -2295,6 +2265,14 @@ blockquote {
     }
 
 }
+.Sub {
+    font-size: 20px;
+    color: #E6FFFD;
+    font-weight: 500;
+    margin-top: 10px;
+    text-align: center;
+}
 
-
-
+strong {
+    color: #08D9D6;
+}
