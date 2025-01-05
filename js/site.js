@@ -6,14 +6,14 @@ $(document).ready(function () {
 		$('.video').simpleLightboxVideo();
 	}
 
-	/*ScrollUp*/
+	/* ScrollUp */
 	if (!!$.prototype.scrollUp) {
 		$.scrollUp();
 	}
 
-	/*Responsive Navigation*/
+	/* Responsive Navigation */
 	$("#nav-mobile").html($("#nav-main").html());
-	$("#nav-trigger span").on("click",function() {
+	$("#nav-trigger span").on("click", function () {
 		if ($("nav#nav-mobile ul").hasClass("expanded")) {
 			$("nav#nav-mobile ul.expanded").removeClass("expanded").slideUp(250);
 			$(this).removeClass("open");
@@ -24,7 +24,7 @@ $(document).ready(function () {
 	});
 
 	$("#nav-mobile").html($("#nav-main").html());
-	$("#nav-mobile ul a").on("click",function() {
+	$("#nav-mobile ul a").on("click", function () {
 		if ($("nav#nav-mobile ul").hasClass("expanded")) {
 			$("nav#nav-mobile ul.expanded").removeClass("expanded").slideUp(250);
 			$("#nav-trigger span").removeClass("open");
@@ -39,14 +39,22 @@ $(document).ready(function () {
 	$('#content').waypoint(function (direction) {
 		if (direction === 'down') {
 			$('#header').addClass('nav-solid fadeInDown');
-		}
-		else {
+		} else {
 			$('#header').removeClass('nav-solid fadeInDown');
 		}
 	});
 
-});
+	/* Disable right and left click */
+	$(document).on('contextmenu', function (e) {
+		e.preventDefault();
+	});
 
+	$(document).on('mousedown', function (e) {
+		if (e.button === 0 || e.button === 2) { // 0: Left click, 2: Right click
+			e.preventDefault();
+		}
+	});
+});
 
 /* Preloader and animations */
 $(window).load(function () { // makes sure the whole site is loaded
@@ -63,5 +71,4 @@ $(window).load(function () { // makes sure the whole site is loaded
 	if (!!$.prototype.enllax) {
 		$(window).enllax();
 	}
-
 });
