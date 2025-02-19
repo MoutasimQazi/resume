@@ -1971,3 +1971,82 @@ strong {
         padding: 50px 30px;
     }
 }
+
+/* Project Section Mobile Responsive Styles */
+@media screen and (max-width: 767px) {
+    /* Project section specific adjustments */
+    #gallery {
+        padding: 15px;
+    }
+
+    #gallery [class*='col-'] {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    #gallery a {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    #gallery a img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        display: block;
+    }
+
+    /* Improve spacing and layout */
+    .project-title {
+        font-size: 16px;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .project-description {
+        font-size: 14px;
+        line-height: 1.4;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    /* Project hover effects */
+    #gallery a:before {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        margin: -25px 0 0 -25px;
+    }
+
+    /* Add some spacing between projects */
+    #gallery .row > div {
+        margin-bottom: 20px;
+    }
+}
+
+/* Additional adjustments for very small screens */
+@media screen and (max-width: 320px) {
+    #gallery a img {
+        height: 180px;
+    }
+
+    .project-title {
+        font-size: 15px;
+    }
+
+    .project-description {
+        font-size: 13px;
+    }
+}
+
+/* Landscape mode adjustments */
+@media screen and (max-height: 480px) and (orientation: landscape) {
+    #gallery [class*='col-'] {
+        width: 50%;
+        padding: 5px;
+    }
+
+    #gallery a img {
+        height: 150px;
+    }
+}
