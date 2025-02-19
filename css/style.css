@@ -1813,3 +1813,161 @@ strong {
   ::-webkit-scrollbar-thumb:hover {
     background: #00000041;
   }
+
+/* Mobile Responsive Styles */
+@media screen and (max-width: 767px) {
+    /* General adjustments */
+    body {
+        font-size: 14px;
+    }
+
+    .row {
+        padding: 30px 15px;
+    }
+
+    /* Header adjustments */
+    #header {
+        height: 60px !important;
+    }
+
+    #logo {
+        height: 60px;
+        line-height: 55px;
+    }
+
+    #banner {
+        height: auto;
+        min-height: 100vh;
+    }
+
+    #banner-content.row {
+        padding-top: 60px !important;
+    }
+
+    /* Text sizing */
+    h1 {
+        font-size: 32px;
+        padding: 15px 0;
+    }
+
+    h2 {
+        font-size: 24px;
+        padding: 12px 0;
+    }
+
+    h3 {
+        font-size: 20px;
+        padding: 10px 0;
+    }
+
+    /* Column adjustments */
+    [class*='col-'] {
+        padding: 10px;
+    }
+
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6,
+    .col-7, .col-8, .col-9, .col-10, .col-11, .col-12,
+    .col-2-3, .col-3-4, .col-9-10, .col-61, .col-38 {
+        width: 100%;
+        float: none;
+    }
+
+    /* Navigation adjustments */
+    #nav-trigger {
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 5px;
+    }
+
+    nav#nav-mobile ul {
+        margin: 0;
+        padding: 0 15px;
+        background: rgba(255, 255, 255, 0.95);
+    }
+
+    /* Button adjustments */
+    .button {
+        font-size: 14px;
+        padding: 8px 12px;
+        margin: 20px 0;
+    }
+
+    .download-cv-button {
+        margin-top: 15px;
+    }
+
+    .btn {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+    /* Gallery adjustments */
+    #gallery img {
+        max-height: 200px;
+    }
+
+    /* Form adjustments */
+    input, textarea {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    input {
+        height: 36px;
+    }
+}
+
+/* Small phone screens */
+@media screen and (max-width: 320px) {
+    body {
+        font-size: 13px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .row {
+        padding: 20px 10px;
+    }
+
+    #banner-content.row {
+        padding-top: 50px !important;
+    }
+
+    .button {
+        font-size: 13px;
+        padding: 6px 10px;
+    }
+}
+
+/* Landscape orientation */
+@media screen and (max-height: 480px) and (orientation: landscape) {
+    #banner {
+        min-height: 120vh;
+    }
+
+    #banner-content.row {
+        padding-top: 40px !important;
+    }
+
+    .row {
+        padding: 20px;
+    }
+}
+
+/* Tablet adjustments */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .col-1, .col-2, .col-3, .col-4 {
+        width: 50%;
+    }
+
+    #banner {
+        min-height: 60vh;
+    }
+
+    .row {
+        padding: 50px 30px;
+    }
+}
