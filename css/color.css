@@ -1,0 +1,157 @@
+a, .la-ball-triangle-path {
+    color:#000000;
+}
+a:hover, #header.nav-solid nav a:hover {
+    color:#000000;
+}
+.icon i {
+    color:#000000;
+}
+#banner .section-heading:before, .testimonial.classic footer:before {
+    background: #000000;
+}
+.pricing-block-content:hover {
+    border-color:#000000;
+}
+#header nav a, #header i {
+    color:#000000;
+}
+#header.nav-solid, #header.nav-solid a, #header.nav-solid i, #nav-mobile ul li a {
+    color:#000000;
+}
+#header.nav-solid .active {
+    color: #000000;
+    border-color: #000000;
+}    
+.primary-color, .featured .pricing {
+    background-color:#000000;
+}
+.primary-color, .primary-color .section-title, .primary-color .section-subtitle, .featured .pricing, .featured .pricing p {
+    color:#FFFFFF;    
+}
+.section-heading h2:after {
+    background:#000000;
+    content:"";
+    display:block;
+    width:30px;
+    height:5px;
+    margin-top:30px;
+}
+.text-center .section-heading h2:after {
+    margin:30px auto 25px auto;
+}
+.primary-color .icon i, .primary-color i {
+    color:#FFFFFF;
+}
+.secondary-color {
+    background-color:#FFFFFF;
+}
+body {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size:15px;
+    font-weight:normal;
+    color:#000000;
+}
+#banner h1 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size:62px;
+    line-height:60px;
+    font-weight:800;
+    color:#000000;
+}
+#banner h2 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size:18px;
+    font-weight:300;
+    color:#000000;
+}
+.section-title {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 34px; 
+    font-weight:700;
+    color:#000000;
+}
+.section-subtitle {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 16px;
+    font-weight:300;
+    color:#000000;
+}
+.testimonial q {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 17px; 
+    font-weight:300;
+}
+.testimonial.classic q, .testimonial.classic footer {
+    color:#000000;
+}
+h1 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 40px; 
+    font-weight:300;
+    color:#000000;
+}
+h2 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 34px; 
+    font-weight:300;
+    color:#000000;
+}
+h3 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 30px; 
+    font-weight:700;
+    color:#000000;
+}
+h4 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 18px; 
+    font-weight:400;
+    color:#000000;
+}
+h5 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 16px; 
+    font-weight:400;
+    color:#000000;
+}
+h6 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: 14px; 
+    font-weight:400;
+    color:#000000;
+}
+.button, input[type="submit"]  {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size:14px;
+    font-weight:bold;
+    color:#000000;
+}
+.button, input[type="submit"] {
+    border-color:#000000;
+}
+.button:hover,  input[type="submit"]:hover {
+    border-color:#000000;
+    color:#000000;
+}
+#banner .button {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size:16px;
+    color:#000000;
+}
+#banner .button {
+    border-color:#000000;
+}
+#banner .button:hover {
+    color:#000000;
+    border-color:#000000;
+}
+#landing-footer, #landing-footer p, #landing-footer a {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size:12px;
+    font-weight:normal;
+    color:#000000;
+}
+#landing-footer i {
+    color:#000000;
+}
